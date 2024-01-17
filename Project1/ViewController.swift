@@ -27,8 +27,6 @@ class ViewController: UITableViewController {
                 pictures.sort()
             }
         }
-        print(pictures)
-        print(pictures.count)
     }
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return pictures.count
